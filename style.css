@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+#audioPosition{
+    width: 100%;
+}
+.values{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#time{
+    margin-top: 50px;
+}
