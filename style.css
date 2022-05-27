@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: purple;
+    background-color: gray;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -16,6 +16,9 @@ body{
     align-items: center;
     flex-direction: column;
     width: 500px;
+    color: white;
+    /* background-color: black;
+    border-radius: 15px; */
 }
 #audioPosition{
     width: 100%;
