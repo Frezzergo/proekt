@@ -17,6 +17,7 @@ body{
     flex-direction: column;
     width: 500px;
     color: white;
+    height: 250px;
     /* background-color: black;
     border-radius: 15px; */
 }
@@ -32,3 +33,8 @@ body{
 #time{
     margin-top: 50px;
 }
+/* #mute{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
