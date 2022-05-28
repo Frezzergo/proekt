@@ -35,9 +35,8 @@ slider.addEventListener('mouseup', function(){
 play_btn.addEventListener('click', function(){
     audio.play()
 })
-stop_btn.addEventListener('click', function(){
+pause_btn.addEventListener('click', function(){
     audio.pause()
-    audio.currentTime = 0
 })
 
 mute_btn.addEventListener('click', function(){
